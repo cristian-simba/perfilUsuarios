@@ -1,0 +1,33 @@
+.profile-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.profile-container {
+  width: 300px; /* Ancho del contenedor del perfil */
+  border: 1px solid #ccc; /* Borde del contenedor */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  margin-bottom: 20px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profile-picture {
+  width: 80px; /* Ancho de la imagen de perfil */
+  height: 80px; /* Altura de la imagen de perfil */
+  border-radius: 50%; /* Hacer la imagen circular */
+  margin-right: 20px;
+}
+
+.profile-details p {
+  margin: 5px 0;
+}
