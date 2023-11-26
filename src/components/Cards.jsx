@@ -8,8 +8,8 @@ const Cards = () => {
   return (
 <div className='w-full  bg-white'>
     <div className='w-[100%]  flex flex-col bg-[#000300] text-white px-12 py-7 mb-2'>
-        <h1 className='w-full text-3xl font-bold'>Uso de las APIs</h1>
-        <p className='py-2'> Para el trabajo se uso APIs de diferentes temas....</p>
+        <h1 className='w-full text-3xl font-bold'>Consumo de APIs</h1>
+        <p className='py-2'> Para el trabajo se uso APIs de diferentes temas como películas, clima y deportes</p>
     </div>
 
     {/*Movie API*/}

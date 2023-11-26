@@ -1,18 +1,20 @@
-.profile-list {
+.profiles-container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
   padding: 20px;
+  background-color: #000000; /* Fondo blanco */
 }
 
 .profile-container {
-  width: 300px; /* Ancho del contenedor del perfil */
-  border: 1px solid #ccc; /* Borde del contenedor */
-  padding: 20px; /* Espaciado interno */
-  border-radius: 8px; /* Bordes redondeados */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
-  margin-bottom: 20px;
+  width: 300px;
+  border: 1px solid rgb(108, 110, 110);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(184, 179, 179, 0.1);
+  background-color: #e0dedeec; /* Fondo blanco */
+  color: rgb(5, 5, 5); /* Color del texto */
 }
 
 .profile-header {
@@ -22,9 +24,9 @@
 }
 
 .profile-picture {
-  width: 80px; /* Ancho de la imagen de perfil */
-  height: 80px; /* Altura de la imagen de perfil */
-  border-radius: 50%; /* Hacer la imagen circular */
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
   margin-right: 20px;
 }
 

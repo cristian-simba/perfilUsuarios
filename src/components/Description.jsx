@@ -3,7 +3,7 @@ import ApiImg from '../assets/api.png';
 
 const Description = () =>{
     return(
-        <div className="bg-white">
+        <div className="bg-white" >
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 h-screen'>
                 <img className='w-[500px] mx-auto my-auto flex' src={ApiImg} alt='/' />
                 <div className='flex flex-col justify-center px-7'>

@@ -7,7 +7,7 @@ const HomePage = () => {
                 <p className="font-bold p-2 text-[#9370db]">DESARROLLO DE APLICACIONES WEB</p>
                 <h1 className="md:text-5xl sm:text-5xl text-4xl font-bold md:py-2">Interfaz de Programación de Aplicaciones (API)</h1>
                 <div>
-                    <p className="md:text-3xl sm:text-3xl text-xl font-bold py-4">Estoy Cansado Jefe </p>
+                    <p className="md:text-3xl sm:text-3xl text-xl font-bold py-4"></p>
                 </div>
             </div>
         </div>
