@@ -18,12 +18,11 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route path="/home" element={<><HomePage /><Description /><Cards /></>}/>
-            <Route path="/home/def" element={<><Description /><Cards /></>} />
-            <Route path="/home/apis" element={<Cards />} />
-            <Route path="/perfil" element={<Profile />} />
+            <Route path="/home" element={<><HomePage /><Description /><Cards /><Footer /></>}/>
+            <Route path="/home/def" element={<><Description /><Cards /><Footer /></>} />
+            <Route path="/home/apis" element={<><Cards /><Footer /></>} />
+            <Route path="/perfil" element={<><Profile /><Footer /></>} />
           </Routes>
-          <Footer />
         </Router>
       </div>
   );
