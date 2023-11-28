@@ -43,7 +43,7 @@ const Weather = () => {
     }, []); // El array vacío asegura que useEffect se ejecute solo una vez al montar el componente
 
     return (
-        <div className="body">
+        <div className="body text-white">
             <header>
             <nav className="nav">
                     <p><img className="imagen-1" src={iconoweather} alt="Weather icon" /></p>
