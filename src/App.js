@@ -10,6 +10,7 @@ import Profile from './perfil/Profile';
 import Movies from './movies/Movies';
 import Footer from './components/Footer';
 import Pagina3 from './components/Pagina3';
+import ReturnBt from './components/ReturnBt';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="perfil" element={<> <Navbar /><Profile /><Footer /></>} />
           <Route path="movies" element={<> <Navbar /><Movies /><Footer /></>} />
           <Route path="sport" element={<><Navbar /> <Pagina3 /> <Footer /></>} /> 
+          <Route path="movies" element={<> <Navbar /><ReturnBt/> <Movies /><Footer /></>} />
         </Routes>
       </Router>
 
