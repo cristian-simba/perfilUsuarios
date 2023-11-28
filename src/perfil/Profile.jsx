@@ -23,7 +23,9 @@ const Profile = () => {
   return (
     
     <div className='h-screen'>
-{/* <Navbar /> */}
+      <div className='w-[100%]  flex flex-col bg-[#000300] text-white px-20 py-7 mb-2'>
+        <h1 className='w-full text-3xl font-bold'>Nuestro Equipo de Trabajo</h1>
+    </div>
       <div className="profiles-container">
         {profiles.map((profile, index) => (
           <div key={index} className="profile-container">

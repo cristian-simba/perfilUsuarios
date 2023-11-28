@@ -11,6 +11,7 @@ import Movies from './movies/Movies';
 import Footer from './components/Footer';
 import Pagina3 from './components/Pagina3';
 import ReturnBt from './components/ReturnBt';
+import Contacts from './contact/ContactForm'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="def" element={<><Navbar /><Description /><Footer /></> } />
           <Route path="apis" element={<><Navbar /><Cards /><Footer /></>} />
           <Route path="perfil" element={<> <Navbar /><Profile /><Footer /></>} />
+          <Route path="contactos" element={<> <Navbar /><Contacts /><Footer /></>} />
           <Route path="movies" element={<> <Navbar /><ReturnBt/> <Movies /><Footer /></>} />
           <Route path="sport" element={<><Navbar /><ReturnBt/> <Pagina3 /> <Footer /></>} /> 
         </Routes>
