@@ -21,9 +21,8 @@ function App() {
           <Route path="def" element={<><Navbar /><Description /><Footer /></> } />
           <Route path="apis" element={<><Navbar /><Cards /><Footer /></>} />
           <Route path="perfil" element={<> <Navbar /><Profile /><Footer /></>} />
-          <Route path="movies" element={<> <Navbar /><Movies /><Footer /></>} />
-          <Route path="sport" element={<><Navbar /> <Pagina3 /> <Footer /></>} /> 
           <Route path="movies" element={<> <Navbar /><ReturnBt/> <Movies /><Footer /></>} />
+          <Route path="sport" element={<><Navbar /><ReturnBt/> <Pagina3 /> <Footer /></>} /> 
         </Routes>
       </Router>
 

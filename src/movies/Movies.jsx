@@ -41,7 +41,7 @@ const Movies = () => {
   }
 
   return (
-    <div className="data-container max-w-[1200px] mx-auto  flex flex-col justify-center items-center bg-white">
+    <div className="data-container max-w-[1200px] mx-auto  flex flex-col justify-center items-center">
       <h1>Resultados de Búsqueda de Películas</h1>
       <table>
         <thead>
