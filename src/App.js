@@ -15,15 +15,15 @@ import Footer from './components/Footer';
 function App() {
   return (
       <div>
-        <Router>
-          <Navbar />
-          <Routes>
-            <Route path="/home" element={<><HomePage /><Description /><Cards /><Footer /></>}/>
-            <Route path="/home/def" element={<><Description /><Footer /></>} />
-            <Route path="/home/apis" element={<><Cards /><Footer /></>} />
-            <Route path="/perfil" element={<><Profile /><Footer /></>} />
-          </Routes>
-        </Router>
+      <Router>
+        <Routes>
+          <Route path="/" element={<><Navbar /><HomePage /><Description /> <Cards /><Footer /></>}/>
+          <Route path="def" element={<><Navbar /><Description /><Footer /></> } />
+          <Route path="apis" element={<><Navbar /><Cards /><Footer /></>} />
+          <Route path="perfil" element={<> <Navbar /><Profile /><Footer /></>} />
+        </Routes>
+      </Router>
+
       </div>
   );
 }

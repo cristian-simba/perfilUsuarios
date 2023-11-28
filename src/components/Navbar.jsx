@@ -7,11 +7,11 @@ const links = [
 
   {
     name: "Definicion",
-    href: "/home/def"
+    href: "/def"
   },
   {
     name: "APIs",
-    href: "/home/apis"
+    href: "/apis"
   },
   {
     name: "Perfil",
@@ -37,7 +37,7 @@ const Navbar = () => {
 
   return (
     <div className='max-w-[1200px] mx-auto flex justify-between items-center text-white px-12 h-24'>
-      <h1 className='w-full text-3xl font-bold text-[#9370db]'><Link to="/home">Home</Link></h1>
+      <h1 className='w-full text-3xl font-bold text-[#9370db]'><Link to="/">Home</Link></h1>
       <ul className='hidden md:flex'>
         {links.map((link) => (
           <li key={link.name} className='p-4'>
