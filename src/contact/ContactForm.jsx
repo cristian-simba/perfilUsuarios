@@ -41,9 +41,9 @@ const ContactUs = () => {
   return (
     <main>
       <div className="title text-[#f5f5f5]">Contáctanos</div>
-      <div className="title-info">Para usuarios nuevos, preguntas y consultas.</div>
+      <div className="title-info text-[#f5f5f5]">Para usuarios nuevos, preguntas y consultas.</div>
 
-      <form onSubmit={handleSubmit} className="form">
+      <form onSubmit={handleSubmit} className="form text-[#f5f5f5]">
         <div className="input-group">
           <input
             type="text"
@@ -84,7 +84,7 @@ const ContactUs = () => {
           <textarea
             name="message"
             id="message"
-            rows="5"
+            rows="4"
             placeholder="Mensaje"
             value={formData.message}
             onChange={handleChange}
@@ -99,7 +99,7 @@ const ContactUs = () => {
         </div>
       </form>
 
-      {error && <div className="error-message">{error}</div>}
+      {error && <div className="error-message text-red-500">{error}</div>}
     </main>
   );
 };
