@@ -29,9 +29,9 @@ const Cards = () => {
               <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={WeatherImg} alt="/" />
               <h2 className='text-2xl font-bold text-center py-8'>Weather API</h2>
               <div className='text-center font-medium'>
-                  <p className='py-2 border-b mx-8'>Nos permite ver datos como...</p>
+                <p className='py-2 border-b mx-8'>Nos permite ver datos como la ubicación exacta, latitud, longitud y la zona horaria de varias ciudades</p>
               </div>
-              <h2 className='bg-black text-[#9370db] text-center text-[20px] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 cursor-pointer'><Link to="/">Ver</Link></h2>
+              <Link to="/weather"><h2 className='bg-[#9370db] text-center text-[20px] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 cursor-pointer'>Ver</h2></Link>
           </div>
     
     {/*Sport API*/}
