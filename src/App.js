@@ -9,6 +9,7 @@ import Cards from './components/Cards';
 import Profile from './perfil/Profile';
 import Movies from './movies/Movies';
 import Footer from './components/Footer';
+import Pagina3 from './components/Pagina3';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="apis" element={<><Navbar /><Cards /><Footer /></>} />
           <Route path="perfil" element={<> <Navbar /><Profile /><Footer /></>} />
           <Route path="movies" element={<> <Navbar /><Movies /><Footer /></>} />
+          <Route path="sport" element={<><Navbar /> <Pagina3 /> <Footer /></>} /> 
         </Routes>
       </Router>
 

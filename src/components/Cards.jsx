@@ -21,7 +21,7 @@ const Cards = () => {
               <div className='text-center font-medium'>
                   <p className='py-2 border-b mx-8'>Esta API proporciona a los usuarios explorar y buscar películas de manera eficiente mediante el uso de listas.</p>
               </div>
-              <h2 className='bg-[#9370db] text-center text-[20px] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 cursor-pointer'><Link to="/movies">Ver</Link></h2>
+              <Link to="/movies"><h2 className='bg-[#9370db] text-center text-[20px] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 cursor-pointer'>Ver</h2></Link>
           </div>
 
     {/*Weather API*/}
@@ -39,9 +39,9 @@ const Cards = () => {
               <img className='w-20 mx-auto mt-[-3rem] bg-white' src={SportImg} alt="/" />
               <h2 className='text-2xl font-bold text-center py-8'>Sports API</h2>
               <div className='text-center font-medium'>
-                  <p className='py-2 border-b mx-8'>Nos permite ver datos como...</p>
+                  <p className='py-2 border-b mx-8'>Proporciona Información interesante sobre el baloncesto, tanto jugadores, equipos y partidos de temporadas pasadas</p>
               </div>
-              <h2 className='bg-[#9370db] text-center text-[20px] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 cursor-pointer'><Link to="/">Ver</Link></h2>
+              <Link to="/sport"><h2 className='bg-[#9370db] text-center text-[20px] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 cursor-pointer'>Ver</h2></Link>
           </div>
       </div>
     </div>
