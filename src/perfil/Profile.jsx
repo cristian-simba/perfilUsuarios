@@ -22,7 +22,7 @@ const Profile = () => {
 
   return (
     
-    <div>
+    <div className='h-screen'>
 {/* <Navbar /> */}
       <div className="profiles-container">
         {profiles.map((profile, index) => (
