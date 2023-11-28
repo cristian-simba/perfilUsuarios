@@ -19,7 +19,7 @@ const Cards = () => {
               <img className='w-20 mx-auto mt-[-3rem] bg-white' src={MovieImg} alt="/" />
               <h2 className='text-2xl font-bold text-center py-8'>Movie API</h2>
               <div className='text-center font-medium'>
-                  <p className='py-2 border-b mx-8'>Nos permite ver datos como...</p>
+                  <p className='py-2 border-b mx-8'>Esta API proporciona a los usuarios explorar y buscar películas de manera eficiente mediante el uso de listas.</p>
               </div>
               <h2 className='bg-[#9370db] text-center text-[20px] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'><Link to="/movies">Ver</Link></h2>
           </div>
