@@ -9,6 +9,7 @@ import Cards from './components/Cards';
 import Profile from './perfil/Profile';
 import Movies from './movies/Movies';
 import Footer from './components/Footer';
+import ReturnBt from './components/ReturnBt';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route path="def" element={<><Navbar /><Description /><Footer /></> } />
           <Route path="apis" element={<><Navbar /><Cards /><Footer /></>} />
           <Route path="perfil" element={<> <Navbar /><Profile /><Footer /></>} />
-          <Route path="movies" element={<> <Navbar /><Movies /><Footer /></>} />
+          <Route path="movies" element={<> <Navbar /><ReturnBt/> <Movies /><Footer /></>} />
         </Routes>
       </Router>
 
