@@ -2,6 +2,7 @@ import React from 'react';
 import MovieImg from '../assets/movie.png'
 import WeatherImg from '../assets/weather.png'
 import SportImg from '../assets/sport.jpg'
+import { Link } from 'react-router-dom';
 
 
 const Cards = () => {
@@ -20,7 +21,7 @@ const Cards = () => {
               <div className='text-center font-medium'>
                   <p className='py-2 border-b mx-8'>Nos permite ver datos como...</p>
               </div>
-              <button className='bg-[#9370db] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Ver</button>
+              <h2 className='bg-[#9370db] text-center text-[20px] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'><Link to="/movies">Ver</Link></h2>
           </div>
 
     {/*Weather API*/}
@@ -30,7 +31,7 @@ const Cards = () => {
               <div className='text-center font-medium'>
                   <p className='py-2 border-b mx-8'>Nos permite ver datos como...</p>
               </div>
-              <button className='bg-black text-[#9370db] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Ver</button>
+              <h2 className='bg-black text-[#9370db] text-center text-[20px] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Ver</h2>
           </div>
     
     {/*Sport API*/}
@@ -40,7 +41,7 @@ const Cards = () => {
               <div className='text-center font-medium'>
                   <p className='py-2 border-b mx-8'>Nos permite ver datos como...</p>
               </div>
-              <button className='bg-[#9370db] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Ver</button>
+              <h2 className='bg-[#9370db] text-center text-[20px] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'><Link to="/movies">Ver</Link></h2>
           </div>
       </div>
     </div>
